@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int  main()
 {
     int marks[]={27,47,58,68};
     int size=sizeof(marks)/sizeof(int);
@@ -7,5 +7,6 @@ void main()
     {
         printf("%d\n",marks[i]);
     }
+    return 0;
 
 }
